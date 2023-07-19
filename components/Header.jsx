@@ -1,4 +1,4 @@
-export const Header = (props) => {
+export function Header(props) {
   return (
     <div>
       <h4 className="display-4 text-center fst-italic">Todo List Mock Up</h4>
@@ -7,4 +7,4 @@ export const Header = (props) => {
       </p>
     </div>
   );
-};
+}
